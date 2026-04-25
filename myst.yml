@@ -1,0 +1,49 @@
+# MyST project configuration
+# Docs: https://mystmd.org/guide/configuration
+version: 1
+project:
+  title: "Quantum Mechanics Basics"
+  authors:
+    - name: Dr. Ernesto Lee
+  # Book-level attributes
+  keywords: []
+  license: CC-BY-4.0
+  open_access: true
+  github: https://github.com/liquid-books/quantum-mechanics-basics
+  # Numbering
+  numbering:
+    heading_1: true
+    heading_2: true
+    heading_3: true
+    figure: true
+    table: true
+    equation: true
+  exports:
+    - format: pdf
+  # Table of contents — chapters added here as they are written
+  toc:
+    - file: index.md
+    - title: "Chapter 1: The Quantum World — Why Everything You Know Is Wrong"
+      file: chapters/ch01-quantum-world.md
+    - title: "Chapter 2: Wave-Particle Duality — The Universe Can't Make Up Its Mind"
+      file: chapters/ch02-wave-particle-duality.md
+    - title: "Chapter 3: Superposition — Computing Every Answer at Once"
+      file: chapters/ch03-superposition.md
+    - title: "Chapter 4: Entanglement — Spooky Action at a Distance"
+      file: chapters/ch04-entanglement.md
+    - title: "Chapter 5: Measurement and Collapse — The Observer Changes Everything"
+      file: chapters/ch05-measurement-collapse.md
+    - title: "Chapter 6: Quantum Tunneling — Impossible Shortcuts"
+      file: chapters/ch06-quantum-tunneling.md
+    - title: "Chapter 7: Uncertainty Principle — Fundamental Limits of Knowledge"
+      file: chapters/ch07-uncertainty-principle.md
+    - title: "Chapter 8: From Quantum Mechanics to Quantum Computing — Crossing the Bridge"
+      file: chapters/ch08-quantum-to-computing.md
+
+site:
+  title: "Quantum Mechanics Basics"
+  options:
+    logo_text: "Quantum Mechanics Basics"
+    logo_url: "/"
+  parts:
+    primary_sidebar_footer: primary-sidebar-footer.md
