@@ -100,7 +100,22 @@ Heisenberg's famous principle — what it actually means, why it is fundamental 
 :link: ./chapters/ch08-quantum-to-computing.md
 Synthesizing everything: how quantum mechanical phenomena become qubits, gates, circuits, and algorithms. The handoff to *Applied Quantum Computing*.
 :::
-<!-- GRID_PLACEHOLDER -->
+:::{grid-item-card} Appendix A: Master Glossary
+:link: ./chapters/appendix-a-glossary.md
+Every key term from all eight chapters — alphabetically organized in one place for quick reference.
+:::
+:::{grid-item-card} Appendix B: The Math You Actually Need
+:link: ./chapters/appendix-b-math.md
+A gentle crash course in complex numbers, vectors, matrices, and inner products — with color-coded explanations and Python code.
+:::
+:::{grid-item-card} Appendix C: Further Reading & Free Resources
+:link: ./chapters/appendix-c-resources.md
+Free quantum computers you can use today (IBM, D-Wave, Google, IonQ), curated textbooks, courses, and communities.
+:::
+:::{grid-item-card} Appendix D: Platform Quick-Start Guides
+:link: ./chapters/appendix-d-quickstart.md
+Your first quantum job in 15 minutes — step-by-step setup for IBM Quantum (gate-model) and D-Wave Leap (annealing).
+:::
 ::::
 
 ---

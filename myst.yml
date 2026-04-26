@@ -39,6 +39,14 @@ project:
       file: chapters/ch07-uncertainty-principle.md
     - title: "Chapter 8: From Quantum Mechanics to Quantum Computing — Crossing the Bridge"
       file: chapters/ch08-quantum-to-computing.md
+    - title: "Appendix A: Master Glossary"
+      file: chapters/appendix-a-glossary.md
+    - title: "Appendix B: The Math You Actually Need"
+      file: chapters/appendix-b-math.md
+    - title: "Appendix C: Further Reading & Free Resources"
+      file: chapters/appendix-c-resources.md
+    - title: "Appendix D: Quantum Platform Quick-Start Guides"
+      file: chapters/appendix-d-quickstart.md
 
 site:
   title: "Quantum Mechanics Basics"
