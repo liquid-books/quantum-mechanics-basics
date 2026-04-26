@@ -564,6 +564,11 @@ The spooky action at a distance is real. We've measured it a million times. We'r
 
 That's enough.
 
+:::{admonition} D-Wave and FAU: Engineering Correlations Between Qubits
+:class: tip
+D-Wave's hardware encodes problems using the Ising Hamiltonian: H = Σ h_i σ_i + Σ J_ij σ_i σ_j. The J_ij terms are the couplers — physical connections between pairs of qubits that create tunable correlations. When J_ij is set to a strong negative value, the two qubits tend to align; a strong positive value makes them anti-align. These engineered correlations shape the energy landscape the annealer explores, steering it toward optimal solutions. Whether these couplings produce true quantum entanglement in the technical sense is an active research question, but functionally they behave like entanglement-like correlations: the state of one qubit influences others in a coordinated, non-local way. On the Advantage2 at FAU, tens of thousands of these couplers are tuned per problem to encode combinatorial structure directly into quantum hardware.
+:::
+
 ---
 
 ## Glossary

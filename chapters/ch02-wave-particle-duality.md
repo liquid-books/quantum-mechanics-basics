@@ -686,6 +686,11 @@ Let's compress what we've covered into key takeaways:
 
 9. **The interpretation remains open**: Copenhagen, Many-Worlds, Pilot Wave — all agree on predictions, disagree on meaning. Engineers don't need to resolve this. The math works.
 
+:::{admonition} D-Wave and FAU: Wave-Particle Duality Made Physical
+:class: tip
+D-Wave's flux qubits don't just *represent* wave-particle duality — they *are* it, in hardware. Each qubit is a tiny superconducting loop carrying electrical current. Quantum mechanically, the current has no definite direction: it exists in a superposition of flowing clockwise and counterclockwise simultaneously. That's the "wave" side. When the annealer reads out a result at the end of a computation, each loop collapses to one classical direction — clockwise or counterclockwise, a definite bit. That's the "particle" side. The D-Wave Advantage2 at FAU's campus performs this collapse roughly 5,000 times per anneal cycle. Wave-particle duality isn't a textbook abstraction here — it's the operating principle of a machine running optimization jobs right now in Boca Raton.
+:::
+
 ---
 
 ## Glossary

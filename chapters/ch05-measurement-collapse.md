@@ -571,6 +571,11 @@ The fringe idea that consciousness causes collapse (associated with physicists l
 "Measurement" in quantum mechanics means *any irreversible physical interaction that correlates a quantum system with a macroscopic classical system* — no humans required.
 :::
 
+:::{admonition} D-Wave and FAU: Annealing as Gradual Collapse
+:class: tip
+In gate-model quantum computers, measurement is abrupt — a projective operation that instantly forces a qubit into a classical state. D-Wave's annealer works differently: collapse happens *gradually*. At the start of an anneal, a transverse magnetic field keeps all qubits in superposition. As the anneal progresses over tens of microseconds, that field is slowly dialed to zero. With no transverse field to sustain superposition, the qubits naturally lose their quantum character and settle into definite classical bit values — the answer to the optimization problem. There's no sudden "measurement event." The system physically evolves from quantum to classical. On the Advantage2 at FAU, this controlled decoherence is the entire computational mechanism: the universe does the measurement, one anneal at a time.
+:::
+
 ---
 
 ## Glossary

@@ -589,6 +589,11 @@ The pieces are falling into place. Superposition gave us the engine. Entanglemen
 
 Chapter 4 is going to change how you think about information itself.
 
+:::{admonition} D-Wave and FAU: Superposition as Parallel Search
+:class: tip
+D-Wave's annealing process puts superposition to work in a concrete way. At the start of every anneal, a strong transverse magnetic field places all ~5,000 qubits simultaneously into the |+⟩ state — equal superposition of 0 and 1. At that moment, the system is exploring all 2^5000 possible combinations of bit values in parallel. As the anneal progresses, the transverse field is gradually reduced and a problem-encoding Hamiltonian is turned up. The system "settles" toward low-energy configurations — effectively converging on good solutions to the optimization problem. The entire trick relies on that initial superposition: without it, you'd have to check combinations one at a time. On the D-Wave Advantage2 at FAU, this parallel exploration happens in microseconds.
+:::
+
 ---
 
 ## Glossary

@@ -496,6 +496,11 @@ Maya, our programmer from the opening of this chapter, eventually learns to read
 
 **Chapter 2 will show you why.**
 
+:::{admonition} D-Wave and FAU: Quantum Computing Has Already Arrived
+:class: tip
+Florida Atlantic University has a D-Wave Advantage2 quantum computer on campus — the first on-campus quantum computer in the state of Florida. D-Wave is also relocating its US headquarters to Boca Raton, just minutes from FAU. This isn't future-tense quantum computing; it's here now, and it's local. The Advantage2 system has roughly 5,000 qubits and runs on D-Wave's cloud platform, D-Wave Leap, which you can access with a free developer account. As you work through this book, you're learning the physics underlying a machine you can actually run code on today. Quantum computing isn't an abstract promise — it's a resource your university already has.
+:::
+
 ---
 
 ## Glossary

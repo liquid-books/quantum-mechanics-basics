@@ -474,6 +474,11 @@ Phase-space representation of coherent states (circular uncertainty region, bala
 
 This is the uncertainty principle deployed as a precision engineering tool: not fought against, but shaped.
 
+:::{admonition} D-Wave and FAU: Heisenberg's Principle as a Computational Tool
+:class: tip
+D-Wave's quantum annealer doesn't fight the uncertainty principle — it exploits it. The transverse field applied at the start of an anneal introduces energy uncertainty into each qubit: the qubit has no definite energy state, which means (by the energy-time form of Heisenberg's principle, ΔE · Δt ≥ ℏ/2) it can't be localized in time to a fixed configuration either. This energy uncertainty enables quantum tunneling: instead of climbing over energy barriers in the optimization landscape, the system tunnels through them, escaping local minima that would trap a classical search. As the transverse field decreases and energy uncertainty narrows, tunneling diminishes and the system locks in a solution. On the Advantage2 at FAU, quantum annealing is Heisenberg's principle doing combinatorial optimization — uncertainty as a feature, not a bug.
+:::
+
 ---
 
 ## Glossary
